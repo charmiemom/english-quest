@@ -433,7 +433,167 @@
       background: linear-gradient(135deg, #d4a435, #c49425);
     }
 
-    @media (max-width: 600px) {
+    @media /* 모바일에서 폰트 스타일 유지 */
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 모바일에서 텍스트 변형 방지 */
+* {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+button {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#questionText {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.option-btn {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 가로 모드 반응형 (Landscape) */
+@media (max-height: 600px) and (orientation: landscape) {
+  .game-container {
+    padding: 15px;
+    max-width: 95vw;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .difficulty-buttons {
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .difficulty-btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .header {
+    margin-bottom: 15px;
+    gap: 10px;
+  }
+
+  .coin-bar-horizontal {
+    width: 150px;
+    height: 25px;
+  }
+
+  .total-coins {
+    font-size: 16px;
+    padding: 8px 15px;
+    min-width: 100px;
+  }
+
+  .question-area {
+    padding: 15px;
+    margin-bottom: 12px;
+  }
+
+  .question-number {
+    font-size: 12px;
+  }
+
+  #questionText {
+    font-size: 18px;
+    min-height: 50px;
+  }
+
+  .audio-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .options-container {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .option-btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  #feedback {
+    font-size: 14px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .blank-underline {
+    min-width: 70px;
+    border-bottom: 2px solid #333;
+  }
+}
+
+/* 초소형 가로 모드 (매우 작은 화면) */
+@media (max-height: 500px) and (orientation: landscape) {
+  .game-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .difficulty-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  #questionText {
+    font-size: 16px;
+    min-height: 40px;
+    line-height: 1.4;
+  }
+
+  .option-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .question-area {
+    padding: 12px;
+  }
+}
+
+/* 세로 모드 유지 (기존 대로) */
+@media (orientation: portrait) {
+  .game-container {
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+}
+{
       .difficulty-buttons {
         grid-template-columns: 1fr;
       }
