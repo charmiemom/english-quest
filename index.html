@@ -8,84 +8,12 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
-    /* 기존 font-family 전체 교체 (앱에서 주로 사용하는 시인성 높은 폰트) */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-
-* {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.title {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-#questionText {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.option-btn {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.subtitle {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.total-coins {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-#feedback {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.review-title {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.review-item-question {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.review-item-answer {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.question-number {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.audio-btn {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.end-message {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.coins-earned {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.end-btn {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.page-btn {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
       background: linear-gradient(135deg, #a8e6cf 0%, #ffd3b6 50%, #ffaaa5 100%);
       display: flex;
       justify-content: center;
@@ -167,15 +95,16 @@ button {
       font-weight: bold;
       cursor: pointer;
       transition: all 0.3s;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     }
 
-    .home-btn, .back-btn-header {
+    .home-btn, .back-btn-header, .close-btn-header {
       background: linear-gradient(135deg, #8b7355, #6b5344);
       color: white;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    .home-btn:hover, .back-btn-header:hover {
+    .home-btn:hover, .back-btn-header:hover, .close-btn-header:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
@@ -189,6 +118,10 @@ button {
       display: block;
     }
 
+    .screen.hidden {
+      display: none;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -196,10 +129,6 @@ button {
 
     #startScreen {
       text-align: center;
-    }
-
-    #startScreen.hidden {
-      display: none;
     }
 
     .title {
@@ -284,16 +213,16 @@ button {
       align-items: center;
       justify-content: center;
     }
-/* Underline 스타일 개선 */
-.blank-underline {
-  display: inline-block;
-  border-bottom: 3px solid #333;
-  min-width: 120px;
-  margin: 0 5px;
-  padding-bottom: 5px;
-  height: 20px;
-  vertical-align: baseline;
-}
+
+    .blank-underline {
+      display: inline-block;
+      border-bottom: 3px solid #333;
+      min-width: 120px;
+      margin: 0 5px;
+      padding-bottom: 5px;
+      height: 20px;
+      vertical-align: baseline;
+    }
 
     .audio-btn {
       background: linear-gradient(135deg, #4CAF50, #45a049);
@@ -370,6 +299,26 @@ button {
       text-align: center;
       height: 25px;
       margin-bottom: 15px;
+    }
+
+    .pass-btn {
+      padding: 12px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      background: linear-gradient(135deg, #ff9800, #f57c00);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-top: 10px;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .pass-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
 
     #endScreen {
@@ -512,190 +461,212 @@ button {
       background: linear-gradient(135deg, #d4a435, #c49425);
     }
 
-    @media /* 모바일에서 폰트 스타일 유지 */
-body {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
+    /* Score Board CSS */
+    #scoreBoard {
+      display: none;
+    }
 
-/* 모바일에서 텍스트 변형 방지 */
-* {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+    #scoreBoard.active {
+      display: block;
+    }
 
-button {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+    .scoreboard-container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      border: 5px solid #8b7355;
+      max-width: 600px;
+      margin: 0 auto;
+    }
 
-.title {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+    .scoreboard-title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #6b5344;
+      text-align: center;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-#questionText {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+    .current-score {
+      background: linear-gradient(135deg, #fef3c7, #fde68a);
+      padding: 15px 20px;
+      border-radius: 12px;
+      border: 2px solid #d4a435;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+      line-height: 1.8;
+    }
 
-.option-btn {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+    .name-input-container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
 
-/* 가로 모드 반응형 (Landscape) */
-@media (max-height: 600px) and (orientation: landscape) {
-  .game-container {
-    padding: 15px;
-    max-width: 95vw;
-  }
+    .name-input {
+      flex: 1;
+      padding: 12px 15px;
+      font-size: 16px;
+      border: 3px solid #d4a574;
+      border-radius: 10px;
+      font-family: inherit;
+      color: #333;
+    }
 
-  .title {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
+    .name-input:focus {
+      outline: none;
+      border-color: #8b7355;
+      box-shadow: 0 0 8px rgba(139, 115, 85, 0.3);
+    }
 
-  .subtitle {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
+    .save-score-btn {
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      background: linear-gradient(135deg, #4CAF50, #45a049);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      white-space: nowrap;
+    }
 
-  .difficulty-buttons {
-    gap: 10px;
-    margin-top: 15px;
-  }
+    .save-score-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-  .difficulty-btn {
-    padding: 12px;
-    font-size: 14px;
-  }
+    .ranking-container {
+      background: #f9f5f0;
+      padding: 20px;
+      border-radius: 15px;
+      border: 2px solid #e0d5c7;
+      margin-bottom: 20px;
+    }
 
-  .header {
-    margin-bottom: 15px;
-    gap: 10px;
-  }
+    .ranking-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #6b5344;
+      margin-bottom: 15px;
+      text-align: center;
+    }
 
-  .coin-bar-horizontal {
-    width: 150px;
-    height: 25px;
-  }
+    .ranking-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
 
-  .total-coins {
-    font-size: 16px;
-    padding: 8px 15px;
-    min-width: 100px;
-  }
+    .ranking-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 15px;
+      background: white;
+      border-radius: 10px;
+      border-left: 5px solid #d4a435;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-  .question-area {
-    padding: 15px;
-    margin-bottom: 12px;
-  }
+    .ranking-rank {
+      font-size: 18px;
+      font-weight: bold;
+      color: #d4a435;
+      min-width: 40px;
+    }
 
-  .question-number {
-    font-size: 12px;
-  }
+    .ranking-rank.medal-1 { color: #FFD700; font-size: 20px; }
+    .ranking-rank.medal-2 { color: #C0C0C0; font-size: 20px; }
+    .ranking-rank.medal-3 { color: #CD7F32; font-size: 20px; }
 
-  #questionText {
-    font-size: 18px;
-    min-height: 50px;
-  }
+    .ranking-info {
+      flex: 1;
+      margin: 0 15px;
+    }
 
-  .audio-btn {
-    padding: 8px 15px;
-    font-size: 14px;
-    margin-top: 10px;
-  }
+    .ranking-name {
+      font-weight: bold;
+      color: #333;
+      font-size: 16px;
+    }
 
-  .options-container {
-    gap: 10px;
-    margin-bottom: 12px;
-  }
+    .ranking-meta {
+      font-size: 12px;
+      color: #999;
+      margin-top: 3px;
+    }
 
-  .option-btn {
-    padding: 12px;
-    font-size: 16px;
-  }
+    .ranking-coins {
+      font-weight: bold;
+      color: #d4a435;
+      font-size: 16px;
+      min-width: 80px;
+      text-align: right;
+    }
 
-  #feedback {
-    font-size: 14px;
-    height: 20px;
-    margin-bottom: 10px;
-  }
+    .ranking-difficulty {
+      font-size: 12px;
+      color: #666;
+      background: #f0f0f0;
+      padding: 3px 8px;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
 
-  .blank-underline {
-    min-width: 70px;
-    border-bottom: 2px solid #333;
-  }
-}
+    .scoreboard-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
 
-/* 초소형 가로 모드 (매우 작은 화면) */
-@media (max-height: 500px) and (orientation: landscape) {
-  .game-container {
-    padding: 10px;
-  }
+    .scoreboard-buttons button {
+      flex: 1;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
 
-  .title {
-    font-size: 24px;
-  }
+    /* 모바일 반응형 */
+    @media (max-width: 600px) {
+      .difficulty-buttons { grid-template-columns: 1fr; }
+      .options-container { grid-template-columns: 1fr; }
+      .title { font-size: 32px; }
+      .end-buttons { flex-direction: column; }
+      .header { flex-direction: column; }
+      .scoreboard-container { padding: 20px; }
+      .scoreboard-title { font-size: 28px; }
+      .name-input-container { flex-direction: column; }
+      .save-score-btn { width: 100%; }
+    }
 
-  .difficulty-btn {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  #questionText {
-    font-size: 16px;
-    min-height: 40px;
-    line-height: 1.4;
-  }
-
-  .option-btn {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .question-area {
-    padding: 14px;
-  }
-}
-
-/* 세로 모드 유지 (기존 대로) */
-@media (orientation: portrait) {
-  .game-container {
-    padding: 25px;
-  }
-
-  .title {
-    font-size: 48px;
-  }
-}
-{
-      .difficulty-buttons {
-        grid-template-columns: 1fr;
-      }
-
-      .options-container {
-        grid-template-columns: 1fr;
-      }
-
-      .title {
-        font-size: 32px;
-      }
-
-      .end-buttons {
-        flex-direction: column;
-      }
-
-      .header {
-        flex-direction: column;
-      }
-
-      .coin-bar-horizontal {
-        width: 100%;
-      }
+    /* 가로 모드 반응형 */
+    @media (max-height: 600px) and (orientation: landscape) {
+      .game-container { padding: 15px; max-width: 95vw; }
+      .title { font-size: 32px; margin-bottom: 10px; }
+      .difficulty-buttons { gap: 10px; margin-top: 15px; }
+      .difficulty-btn { padding: 12px; font-size: 14px; }
+      .header { margin-bottom: 15px; gap: 10px; }
+      .coin-bar-horizontal { width: 150px; height: 25px; }
+      .total-coins { font-size: 16px; padding: 8px 15px; min-width: 100px; }
+      .question-area { padding: 15px; margin-bottom: 12px; }
+      #questionText { font-size: 18px; min-height: 50px; }
+      .audio-btn { padding: 8px 15px; font-size: 14px; margin-top: 10px; }
+      .options-container { gap: 10px; margin-bottom: 12px; }
+      .option-btn { padding: 12px; font-size: 16px; }
+      #feedback { font-size: 14px; height: 20px; margin-bottom: 10px; }
+      .blank-underline { min-width: 70px; border-bottom: 2px solid #333; }
+      .pass-btn { padding: 10px 20px; font-size: 14px; margin-top: 8px; }
     }
   </style>
 </head>
@@ -703,16 +674,15 @@ button {
   <div class="game-container">
     <div class="header">
       <div class="coin-display-container">
-        <div class="total-coins">
-          Total: <span id="totalCoins">0</span>
-        </div>
+        <div class="total-coins">Total: <span id="totalCoins">0</span></div>
         <div class="coin-bar-horizontal">
           <div class="coin-bar-fill" id="coinBarFill"></div>
         </div>
       </div>
       <div class="header-buttons">
         <button class="home-btn" onclick="goHome()">HOME</button>
-        <button class="back-btn-header" onclick="goBack()" id="backBtn" style="display: none;">BACK</button>
+        <button class="back-btn-header" onclick="goBack()" id="backBtn" style="display:none;">BACK</button>
+        <button class="close-btn-header" onclick="goToScoreBoard()" id="closeBtn" style="display:none;">CLOSE</button>
       </div>
     </div>
 
@@ -734,6 +704,7 @@ button {
       </div>
       <div id="feedback"></div>
       <div class="options-container" id="optionsContainer"></div>
+      <button class="pass-btn" onclick="passQuestion()" id="passBtn" style="display:none;">⏭️ PASS</button>
     </div>
 
     <div id="endScreen" class="screen">
@@ -741,7 +712,7 @@ button {
       <div class="final-score" id="finalScore">0</div>
       <div class="coins-earned">Coins Earned: <span id="coinsEarned">0</span> 🪙</div>
       <div class="end-buttons">
-        <button class="end-btn review-btn" onclick="showReview()" id="reviewBtnEnd" style="display: none;">📋 Review Mistakes</button>
+        <button class="end-btn review-btn" onclick="showReview()" id="reviewBtnEnd" style="display:none;">📋 Review Mistakes</button>
         <button class="end-btn" onclick="playAgain()">▶ Play Again</button>
         <button class="end-btn menu-btn" onclick="goHome()">🏠 Back to Menu</button>
       </div>
@@ -751,7 +722,32 @@ button {
       <div class="review-title">📋 Review Your Mistakes</div>
       <div class="review-items" id="reviewItems"></div>
       <div class="review-pagination" id="pagination"></div>
-      <button class="end-btn menu-btn" onclick="goHome()" style="width: 100%; margin-top: 20px;">🏠 Back to Menu</button>
+      <button class="end-btn menu-btn" onclick="goHome()" style="width:100%; margin-top:20px;">🏠 Back to Menu</button>
+    </div>
+
+    <div id="scoreBoard" class="screen">
+      <div class="scoreboard-container">
+        <div class="scoreboard-title">🏆 Score Board</div>
+        <div class="current-score">
+          <div>Current Score: <span id="currentScoreDisplay">0</span>/10</div>
+          <div>Current Coins: <span id="currentCoinsDisplay">0</span> 🪙</div>
+          <div>Difficulty: <span id="currentDifficultyDisplay">Seedling</span></div>
+        </div>
+        <div class="name-input-container">
+          <input type="text" id="playerName" placeholder="Enter your name" maxlength="15" class="name-input">
+          <button class="save-score-btn" onclick="saveScore()">💾 Save Score</button>
+        </div>
+        <div class="ranking-container">
+          <div class="ranking-title">Top 10 Rankings</div>
+          <div class="ranking-list" id="rankingList">
+            <p style="text-align:center; color:#999;">No scores yet</p>
+          </div>
+        </div>
+        <div class="scoreboard-buttons">
+          <button class="end-btn" onclick="playAgain()">🌱 New Game</button>
+          <button class="end-btn menu-btn" onclick="goHome()">🏠 Back to Menu</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -776,111 +772,101 @@ button {
       forest: { correct: 5, complete: 20 }
     };
 
-    // 800개 문제 데이터셋// ============================================
-// 📚 문제 데이터셋 (이 부분만 교체 가능)
-// ============================================
-const questionData = {
-  "level_1_sr_1_3_to_2_2": [
-    // Seedling: SR 1.3~2.2 (기초 단어, 단순 구조)
-    { "question": "One child. Many _____?", "correct": "children", "options": ["children", "childs", "childes", "child"] },
-    { "question": "One tooth. Many _____?", "correct": "teeth", "options": ["teeth", "tooths", "toothes", "tooth"] },
-    { "question": "One goose. Many _____?", "correct": "geese", "options": ["geese", "gooses", "goose", "geeses"] },
-    { "question": "One mouse. Many _____?", "correct": "mice", "options": ["mice", "mouses", "mouse", "mices"] },
-    { "question": "The baby _____ sleeping now.", "correct": "is", "options": ["is", "are", "am", "be"] },
-    { "question": "They _____ soccer after school.", "correct": "play", "options": ["play", "plays", "played", "playing"] },
-    { "question": "Yesterday, she _____ to the zoo.", "correct": "went", "options": ["went", "go", "goed", "going"] },
-    { "question": "Dad _____ dinner every night.", "correct": "cooks", "options": ["cooks", "cook", "cooked", "cooking"] },
-    { "question": "The birds _____ in the sky.", "correct": "fly", "options": ["fly", "flies", "flew", "flying"] },
-    { "question": "One wolf. Many _____?", "correct": "wolves", "options": ["wolves", "wolfs", "wolfes", "wolf"] },
-    { "question": "She _____ her homework yesterday.", "correct": "did", "options": ["did", "do", "does", "doing"] },
-    { "question": "We _____ watching a movie now.", "correct": "are", "options": ["are", "is", "am", "be"] },
-    { "question": "One leaf. Many _____?", "correct": "leaves", "options": ["leaves", "leafs", "leafes", "leaf"] },
-    { "question": "The boy _____ very fast.", "correct": "runs", "options": ["runs", "run", "running", "ran"] },
-    { "question": "I _____ milk every morning.", "correct": "drink", "options": ["drink", "drinks", "drank", "drinking"] },
-    { "question": "The dog _____ loudly last night.", "correct": "barked", "options": ["barked", "bark", "barks", "barking"] },
-    { "question": "One woman. Two _____?", "correct": "women", "options": ["women", "womans", "womanes", "woman"] },
-    { "question": "The kids _____ hide-and-seek now.", "correct": "are playing", "options": ["are playing", "play", "played", "plays"] },
-    { "question": "Mom _____ me a story yesterday.", "correct": "told", "options": ["told", "tell", "telled", "telling"] },
-    { "question": "Please turn _____ the light.", "correct": "off", "options": ["off", "on", "under", "with"] }
-  ],
-  
-  "level_2_sr_2_3_to_3_0": [
-    // Tree: SR 2.3~3.0 (중급 어휘, 창의적 문맥)
-    { "question": "One cactus. Many _____?", "correct": "cacti", "options": ["cacti", "cactuses", "cactus", "cactis"] },
-    { "question": "One scarf. Many _____?", "correct": "scarves", "options": ["scarves", "scarfs", "scarfes", "scarf"] },
-    { "question": "One potato. Many _____?", "correct": "potatoes", "options": ["potatoes", "potatos", "potato", "potatoes"] },
-    { "question": "One hero. Many _____?", "correct": "heroes", "options": ["heroes", "heros", "hereos", "hero"] },
-    { "question": "One cherry. Many _____?", "correct": "cherries", "options": ["cherries", "cherrys", "cherryes", "cherry"] },
-    { "question": "One loaf. Many _____?", "correct": "loaves", "options": ["loaves", "loafs", "loafes", "loaf"] },
-    { "question": "One elf. Many _____?", "correct": "elves", "options": ["elves", "elfs", "elfes", "elf"] },
-    { "question": "One ox. Many _____?", "correct": "oxen", "options": ["oxen", "oxes", "oxs", "ox"] },
-    { "question": "The owl _____ silently at night.", "correct": "glides", "options": ["glides", "glide", "glided", "gliding"] },
-    { "question": "The volcano _____ smoke yesterday.", "correct": "released", "options": ["released", "release", "releases", "releasing"] },
-    { "question": "The squirrel _____ acorns before winter.", "correct": "collects", "options": ["collects", "collect", "collected", "collecting"] },
-    { "question": "The magician _____ a coin disappear.", "correct": "made", "options": ["made", "make", "makes", "making"] },
-    { "question": "The pirate _____ the treasure map carefully.", "correct": "folded", "options": ["folded", "fold", "folds", "folding"] },
-    { "question": "The raccoon _____ through the trash cans.", "correct": "searched", "options": ["searched", "search", "searches", "searching"] },
-    { "question": "The knight _____ his shield before battle.", "correct": "polished", "options": ["polished", "polish", "polishes", "polishing"] },
-    { "question": "The dolphin _____ above the waves.", "correct": "leaped", "options": ["leaped", "leap", "leaps", "leaping"] },
-    { "question": "The baker _____ cinnamon into the batter.", "correct": "mixed", "options": ["mixed", "mix", "mixes", "mixing"] },
-    { "question": "The dragon _____ fire across the cave.", "correct": "breathed", "options": ["breathed", "breathe", "breathes", "breathing"] },
-    { "question": "The gardener _____ tulips in neat rows.", "correct": "planted", "options": ["planted", "plant", "plants", "planting"] },
-    { "question": "The scientist _____ the glowing liquid carefully.", "correct": "measured", "options": ["measured", "measure", "measures", "measuring"] },
-    { "question": "The fox _____ behind the snowy hill.", "correct": "vanished", "options": ["vanished", "vanish", "vanishes", "vanishing"] },
-    { "question": "The penguin _____ across the ice.", "correct": "waddled", "options": ["waddled", "waddle", "waddles", "waddling"] },
-    { "question": "The chef _____ garlic into tiny pieces.", "correct": "chopped", "options": ["chopped", "chop", "chops", "chopping"] },
-    { "question": "The campers _____ their flashlight batteries.", "correct": "replaced", "options": ["replaced", "replace", "replaces", "replacing"] },
-    { "question": "The eagle _____ high above the canyon.", "correct": "soared", "options": ["soared", "soar", "soars", "soaring"] },
-    { "question": "The librarian _____ the old books alphabetically.", "correct": "arranged", "options": ["arranged", "arrange", "arranges", "arranging"] },
-    { "question": "The hamster _____ sunflower seeds quickly.", "correct": "stuffed", "options": ["stuffed", "stuff", "stuffs", "stuffing"] },
-    { "question": "The detective _____ muddy footprints near the window.", "correct": "noticed", "options": ["noticed", "notice", "notices", "noticing"] },
-    { "question": "The walrus _____ loudly on the rocks.", "correct": "snorted", "options": ["snorted", "snort", "snorts", "snorting"] },
-    { "question": "The artist _____ bright paint across the canvas.", "correct": "splashed", "options": ["splashed", "splash", "splashes", "splashing"] }
-  ],
-  
-  "level_3_sr_3_1_to_3_9": [
-    // Forest: SR 3.1~3.9 (고급 어휘, 복잡한 구조)
-    { "question": "One bacterium. Many _____?", "correct": "bacteria", "options": ["bacteria", "bacterias", "bacteriums", "bacterium"] },
-    { "question": "One curriculum. Many _____?", "correct": "curricula", "options": ["curricula", "curriculums", "curriculas", "curriculum"] },
-    { "question": "One appendix. Many _____?", "correct": "appendices", "options": ["appendices", "appendixs", "appendixes", "appendix"] },
-    { "question": "One louse. Many _____?", "correct": "lice", "options": ["lice", "louses", "licees", "louse"] },
-    { "question": "One moose. Two _____?", "correct": "moose", "options": ["moose", "mooses", "moosies", "moosees"] },
-    { "question": "One shrimp. Many _____?", "correct": "shrimp", "options": ["shrimp", "shrimps", "shrimpees", "shrimpes"] },
-    { "question": "One aircraft. Many _____?", "correct": "aircraft", "options": ["aircraft", "aircrafts", "aircraftes", "airplanes"] },
-    { "question": "The kangaroo _____ over the wooden fence.", "correct": "bounded", "options": ["bounded", "bound", "bounds", "bounding"] },
-    { "question": "The submarine _____ beneath the waves.", "correct": "dived", "options": ["dived", "dive", "dives", "diving"] },
-    { "question": "The carpenter _____ the rough wood smooth.", "correct": "sanded", "options": ["sanded", "sand", "sands", "sanding"] },
-    { "question": "The robot _____ the puzzle in seconds.", "correct": "solved", "options": ["solved", "solve", "solves", "solving"] },
-    { "question": "The parrot _____ pirate songs loudly.", "correct": "squawked", "options": ["squawked", "squawk", "squawks", "squawking"] },
-    { "question": "The blacksmith _____ glowing metal carefully.", "correct": "hammered", "options": ["hammered", "hammer", "hammers", "hammering"] },
-    { "question": "The explorer _____ strange symbols inside the cave.", "correct": "decoded", "options": ["decoded", "decode", "decodes", "decoding"] },
-    { "question": "The seal _____ fish into the water.", "correct": "dragged", "options": ["dragged", "drag", "drags", "dragging"] },
-    { "question": "The beekeeper _____ honey from the hive.", "correct": "harvested", "options": ["harvested", "harvest", "harvests", "harvesting"] },
-    { "question": "The panda _____ bamboo shoots slowly.", "correct": "chewed", "options": ["chewed", "chew", "chews", "chewing"] },
-    { "question": "The storm _____ the power lines overnight.", "correct": "damaged", "options": ["damaged", "damage", "damages", "damaging"] },
-    { "question": "The camel _____ across the hot desert.", "correct": "trudged", "options": ["trudged", "trudge", "trudges", "trudging"] },
-    { "question": "The zookeeper _____ the baby tiger carefully.", "correct": "weighed", "options": ["weighed", "weigh", "weighs", "weighing"] },
-    { "question": "The choir _____ beautifully during the concert.", "correct": "harmonized", "options": ["harmonized", "harmonize", "harmonizes", "harmonizing"] },
-    { "question": "The turtle _____ into its shell quickly.", "correct": "retreated", "options": ["retreated", "retreat", "retreats", "retreating"] },
-    { "question": "The inventor _____ a machine for peeling apples.", "correct": "designed", "options": ["designed", "design", "designs", "designing"] },
-    { "question": "The janitor _____ muddy footprints from the hallway.", "correct": "scrubbed", "options": ["scrubbed", "scrub", "scrubs", "scrubbing"] },
-    { "question": "The peacock _____ its colorful feathers proudly.", "correct": "spread", "options": ["spread", "spreads", "spreading", "spreaded"] },
-    { "question": "The orchestra _____ before the curtain opened.", "correct": "rehearsed", "options": ["rehearsed", "rehearse", "rehearses", "rehearsing"] },
-    { "question": "The miner _____ shiny crystals underground.", "correct": "discovered", "options": ["discovered", "discover", "discovers", "discovering"] },
-    { "question": "The chimpanzee _____ a stick to reach bananas.", "correct": "used", "options": ["used", "use", "uses", "using"] },
-    { "question": "The violinist _____ the final note softly.", "correct": "played", "options": ["played", "play", "plays", "playing"] },
-    { "question": "The otter _____ pebbles beside the river.", "correct": "stacked", "options": ["stacked", "stack", "stacks", "stacking"] }
-  ]
-}; 
+    const questionData = {
+      "level_1_sr_1_3_to_2_2": [
+        { "question": "One child. Many _____?", "correct": "children", "options": ["children","childs","childes","child"] },
+        { "question": "One tooth. Many _____?", "correct": "teeth", "options": ["teeth","tooths","toothes","tooth"] },
+        { "question": "One goose. Many _____?", "correct": "geese", "options": ["geese","gooses","goose","geeses"] },
+        { "question": "One mouse. Many _____?", "correct": "mice", "options": ["mice","mouses","mouse","mices"] },
+        { "question": "The baby _____ sleeping now.", "correct": "is", "options": ["is","are","am","be"] },
+        { "question": "They _____ soccer after school.", "correct": "play", "options": ["play","plays","played","playing"] },
+        { "question": "Yesterday, she _____ to the zoo.", "correct": "went", "options": ["went","go","goed","going"] },
+        { "question": "Dad _____ dinner every night.", "correct": "cooks", "options": ["cooks","cook","cooked","cooking"] },
+        { "question": "The birds _____ in the sky.", "correct": "fly", "options": ["fly","flies","flew","flying"] },
+        { "question": "One wolf. Many _____?", "correct": "wolves", "options": ["wolves","wolfs","wolfes","wolf"] },
+        { "question": "She _____ her homework yesterday.", "correct": "did", "options": ["did","do","does","doing"] },
+        { "question": "We _____ watching a movie now.", "correct": "are", "options": ["are","is","am","be"] },
+        { "question": "One leaf. Many _____?", "correct": "leaves", "options": ["leaves","leafs","leafes","leaf"] },
+        { "question": "The boy _____ very fast.", "correct": "runs", "options": ["runs","run","running","ran"] },
+        { "question": "I _____ milk every morning.", "correct": "drink", "options": ["drink","drinks","drank","drinking"] },
+        { "question": "The dog _____ loudly last night.", "correct": "barked", "options": ["barked","bark","barks","barking"] },
+        { "question": "One woman. Two _____?", "correct": "women", "options": ["women","womans","womanes","woman"] },
+        { "question": "The kids _____ hide-and-seek now.", "correct": "are playing", "options": ["are playing","play","played","plays"] },
+        { "question": "Mom _____ me a story yesterday.", "correct": "told", "options": ["told","tell","telled","telling"] },
+        { "question": "Please turn _____ the light.", "correct": "off", "options": ["off","on","under","with"] }
+      ],
+      "level_2_sr_2_3_to_3_0": [
+        { "question": "One cactus. Many _____?", "correct": "cacti", "options": ["cacti","cactuses","cactus","cactis"] },
+        { "question": "One scarf. Many _____?", "correct": "scarves", "options": ["scarves","scarfs","scarfes","scarf"] },
+        { "question": "One potato. Many _____?", "correct": "potatoes", "options": ["potatoes","potatos","potato","potatoes"] },
+        { "question": "One hero. Many _____?", "correct": "heroes", "options": ["heroes","heros","hereos","hero"] },
+        { "question": "One cherry. Many _____?", "correct": "cherries", "options": ["cherries","cherrys","cherryes","cherry"] },
+        { "question": "One loaf. Many _____?", "correct": "loaves", "options": ["loaves","loafs","loafes","loaf"] },
+        { "question": "One elf. Many _____?", "correct": "elves", "options": ["elves","elfs","elfes","elf"] },
+        { "question": "One ox. Many _____?", "correct": "oxen", "options": ["oxen","oxes","oxs","ox"] },
+        { "question": "The owl _____ silently at night.", "correct": "glides", "options": ["glides","glide","glided","gliding"] },
+        { "question": "The volcano _____ smoke yesterday.", "correct": "released", "options": ["released","release","releases","releasing"] },
+        { "question": "The squirrel _____ acorns before winter.", "correct": "collects", "options": ["collects","collect","collected","collecting"] },
+        { "question": "The magician _____ a coin disappear.", "correct": "made", "options": ["made","make","makes","making"] },
+        { "question": "The pirate _____ the treasure map carefully.", "correct": "folded", "options": ["folded","fold","folds","folding"] },
+        { "question": "The raccoon _____ through the trash cans.", "correct": "searched", "options": ["searched","search","searches","searching"] },
+        { "question": "The knight _____ his shield before battle.", "correct": "polished", "options": ["polished","polish","polishes","polishing"] },
+        { "question": "The dolphin _____ above the waves.", "correct": "leaped", "options": ["leaped","leap","leaps","leaping"] },
+        { "question": "The baker _____ cinnamon into the batter.", "correct": "mixed", "options": ["mixed","mix","mixes","mixing"] },
+        { "question": "The dragon _____ fire across the cave.", "correct": "breathed", "options": ["breathed","breathe","breathes","breathing"] },
+        { "question": "The gardener _____ tulips in neat rows.", "correct": "planted", "options": ["planted","plant","plants","planting"] },
+        { "question": "The scientist _____ the glowing liquid carefully.", "correct": "measured", "options": ["measured","measure","measures","measuring"] },
+        { "question": "The fox _____ behind the snowy hill.", "correct": "vanished", "options": ["vanished","vanish","vanishes","vanishing"] },
+        { "question": "The penguin _____ across the ice.", "correct": "waddled", "options": ["waddled","waddle","waddles","waddling"] },
+        { "question": "The chef _____ garlic into tiny pieces.", "correct": "chopped", "options": ["chopped","chop","chops","chopping"] },
+        { "question": "The campers _____ their flashlight batteries.", "correct": "replaced", "options": ["replaced","replace","replaces","replacing"] },
+        { "question": "The eagle _____ high above the canyon.", "correct": "soared", "options": ["soared","soar","soars","soaring"] },
+        { "question": "The librarian _____ the old books alphabetically.", "correct": "arranged", "options": ["arranged","arrange","arranges","arranging"] },
+        { "question": "The hamster _____ sunflower seeds quickly.", "correct": "stuffed", "options": ["stuffed","stuff","stuffs","stuffing"] },
+        { "question": "The detective _____ muddy footprints near the window.", "correct": "noticed", "options": ["noticed","notice","notices","noticing"] },
+        { "question": "The walrus _____ loudly on the rocks.", "correct": "snorted", "options": ["snorted","snort","snorts","snorting"] },
+        { "question": "The artist _____ bright paint across the canvas.", "correct": "splashed", "options": ["splashed","splash","splashes","splashing"] }
+      ],
+      "level_3_sr_3_1_to_3_9": [
+        { "question": "One bacterium. Many _____?", "correct": "bacteria", "options": ["bacteria","bacterias","bacteriums","bacterium"] },
+        { "question": "One curriculum. Many _____?", "correct": "curricula", "options": ["curricula","curriculums","curriculas","curriculum"] },
+        { "question": "One appendix. Many _____?", "correct": "appendices", "options": ["appendices","appendixs","appendixes","appendix"] },
+        { "question": "One louse. Many _____?", "correct": "lice", "options": ["lice","louses","licees","louse"] },
+        { "question": "One moose. Two _____?", "correct": "moose", "options": ["moose","mooses","moosies","moosees"] },
+        { "question": "One shrimp. Many _____?", "correct": "shrimp", "options": ["shrimp","shrimps","shrimpees","shrimpes"] },
+        { "question": "One aircraft. Many _____?", "correct": "aircraft", "options": ["aircraft","aircrafts","aircraftes","airplanes"] },
+        { "question": "The kangaroo _____ over the wooden fence.", "correct": "bounded", "options": ["bounded","bound","bounds","bounding"] },
+        { "question": "The submarine _____ beneath the waves.", "correct": "dived", "options": ["dived","dive","dives","diving"] },
+        { "question": "The carpenter _____ the rough wood smooth.", "correct": "sanded", "options": ["sanded","sand","sands","sanding"] },
+        { "question": "The robot _____ the puzzle in seconds.", "correct": "solved", "options": ["solved","solve","solves","solving"] },
+        { "question": "The parrot _____ pirate songs loudly.", "correct": "squawked", "options": ["squawked","squawk","squawks","squawking"] },
+        { "question": "The blacksmith _____ glowing metal carefully.", "correct": "hammered", "options": ["hammered","hammer","hammers","hammering"] },
+        { "question": "The explorer _____ strange symbols inside the cave.", "correct": "decoded", "options": ["decoded","decode","decodes","decoding"] },
+        { "question": "The seal _____ fish into the water.", "correct": "dragged", "options": ["dragged","drag","drags","dragging"] },
+        { "question": "The beekeeper _____ honey from the hive.", "correct": "harvested", "options": ["harvested","harvest","harvests","harvesting"] },
+        { "question": "The panda _____ bamboo shoots slowly.", "correct": "chewed", "options": ["chewed","chew","chews","chewing"] },
+        { "question": "The storm _____ the power lines overnight.", "correct": "damaged", "options": ["damaged","damage","damages","damaging"] },
+        { "question": "The camel _____ across the hot desert.", "correct": "trudged", "options": ["trudged","trudge","trudges","trudging"] },
+        { "question": "The zookeeper _____ the baby tiger carefully.", "correct": "weighed", "options": ["weighed","weigh","weighs","weighing"] },
+        { "question": "The choir _____ beautifully during the concert.", "correct": "harmonized", "options": ["harmonized","harmonize","harmonizes","harmonizing"] },
+        { "question": "The turtle _____ into its shell quickly.", "correct": "retreated", "options": ["retreated","retreat","retreats","retreating"] },
+        { "question": "The inventor _____ a machine for peeling apples.", "correct": "designed", "options": ["designed","design","designs","designing"] },
+        { "question": "The janitor _____ muddy footprints from the hallway.", "correct": "scrubbed", "options": ["scrubbed","scrub","scrubs","scrubbing"] },
+        { "question": "The peacock _____ its colorful feathers proudly.", "correct": "spread", "options": ["spread","spreads","spreading","spreaded"] },
+        { "question": "The orchestra _____ before the curtain opened.", "correct": "rehearsed", "options": ["rehearsed","rehearse","rehearses","rehearsing"] },
+        { "question": "The miner _____ shiny crystals underground.", "correct": "discovered", "options": ["discovered","discover","discovers","discovering"] },
+        { "question": "The chimpanzee _____ a stick to reach bananas.", "correct": "used", "options": ["used","use","uses","using"] },
+        { "question": "The violinist _____ the final note softly.", "correct": "played", "options": ["played","play","plays","playing"] },
+        { "question": "The otter _____ pebbles beside the river.", "correct": "stacked", "options": ["stacked","stack","stacks","stacking"] }
+      ]
+    };
 
-    // 난이도 맵핑
     const difficultyMap = {
       'seedling': 'level_1_sr_1_3_to_2_2',
       'tree': 'level_2_sr_2_3_to_3_0',
       'forest': 'level_3_sr_3_1_to_3_9'
     };
 
-    // 문제 순서 섞기
     function shuffleQuestionsIntelligently(questions) {
       const shuffled = [...questions];
       const result = [];
@@ -908,7 +894,6 @@ const questionData = {
       return result;
     }
 
-    // 코인 바 업데이트
     function updateCoinBar() {
       const maxCoins = 50;
       const percentage = (gameState.sessionCoins / maxCoins) * 100;
@@ -916,7 +901,6 @@ const questionData = {
       fill.style.width = Math.min(percentage, 100) + '%';
     }
 
-    // 게임 시작
     function startGame(difficulty) {
       gameState.difficulty = difficulty;
       gameState.currentQuestion = 0;
@@ -936,42 +920,41 @@ const questionData = {
       document.getElementById('startScreen').classList.add('hidden');
       document.getElementById('gameArea').classList.add('active');
       document.getElementById('backBtn').style.display = 'block';
+      document.getElementById('closeBtn').style.display = 'block';
       
       loadQuestion();
     }
 
-   /* 문제 로드 함수 - HTML 렌더링 부분만 수정 */
-function loadQuestion() {
-  if (gameState.currentQuestion >= 10) {
-    endGame();
-    return;
-  }
+    function loadQuestion() {
+      if (gameState.currentQuestion >= 10) {
+        endGame();
+        return;
+      }
 
-  gameState.answered = false;
-  gameState.questionData = gameState.shuffledQuestions[gameState.currentQuestion];
-  const q = gameState.questionData;
+      gameState.answered = false;
+      gameState.questionData = gameState.shuffledQuestions[gameState.currentQuestion];
+      const q = gameState.questionData;
 
-  // underline만 표시 (괄호 없음) - 개선된 버전
-  const questionHTML = q.question.replace(/_+/g, '<span class="blank-underline"></span>');
-  document.getElementById('questionText').innerHTML = questionHTML;
-  document.getElementById('questionNumber').textContent = gameState.currentQuestion + 1;
-  document.getElementById('feedback').textContent = '';
+      const questionHTML = q.question.replace(/_+/g, '<span class="blank-underline"></span>');
+      document.getElementById('questionText').innerHTML = questionHTML;
+      document.getElementById('questionNumber').textContent = gameState.currentQuestion + 1;
+      document.getElementById('feedback').textContent = '';
 
-  const opts = [...q.options].sort(() => Math.random() - 0.5);
-  const container = document.getElementById('optionsContainer');
-  container.innerHTML = '';
+      const opts = [...q.options].sort(() => Math.random() - 0.5);
+      const container = document.getElementById('optionsContainer');
+      container.innerHTML = '';
 
-  opts.forEach(option => {
-    const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.textContent = option;
-    btn.onclick = () => checkAnswer(option, q.correct, btn);
-    container.appendChild(btn);
-  });
-}
+      opts.forEach(option => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.textContent = option;
+        btn.onclick = () => checkAnswer(option, q.correct, btn);
+        container.appendChild(btn);
+      });
+      
+      document.getElementById('passBtn').style.display = 'block';
+    }
 
-
-    // 답변 확인
     function checkAnswer(selected, correct, button) {
       if (gameState.answered) return;
 
@@ -1005,6 +988,7 @@ function loadQuestion() {
       }
 
       document.getElementById('totalCoins').textContent = gameState.sessionCoins;
+      document.getElementById('passBtn').style.display = 'none';
 
       setTimeout(() => {
         gameState.currentQuestion++;
@@ -1012,94 +996,198 @@ function loadQuestion() {
       }, 1500);
     }
 
-    // 소리 재생
-    
-function playSound(type) {
-  try {
-    const ctx = new (window.AudioContext || window.webkitAudioContext)();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
+    function playSound(type) {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
 
-    osc.connect(gain);
-    gain.connect(ctx.destination);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
 
-    if (type === 'correct') {
-      const notes = [800, 1000, 1200];
-      notes.forEach((freq, i) => {
-        setTimeout(() => {
-          osc.frequency.value = freq;
-          gain.gain.setValueAtTime(0.3, ctx.currentTime);
-          gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
-          osc.start(ctx.currentTime);
-          osc.stop(ctx.currentTime + 0.15);
-        }, i * 150);
+        if (type === 'correct') {
+          const notes = [800, 1000, 1200];
+          notes.forEach((freq, i) => {
+            setTimeout(() => {
+              osc.frequency.value = freq;
+              gain.gain.setValueAtTime(0.3, ctx.currentTime);
+              gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
+              osc.start(ctx.currentTime);
+              osc.stop(ctx.currentTime + 0.15);
+            }, i * 150);
+          });
+        } else {
+          const notes = [400, 300];
+          notes.forEach((freq, i) => {
+            setTimeout(() => {
+              osc.frequency.value = freq;
+              gain.gain.setValueAtTime(0.2, ctx.currentTime);
+              gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.2);
+              osc.start(ctx.currentTime);
+              osc.stop(ctx.currentTime + 0.2);
+            }, i * 200);
+          });
+        }
+      } catch (error) {
+        console.log('Audio context error');
+      }
+    }
+
+    function playAudio() {
+      let text = gameState.questionData.question;
+      text = text.replace(/_+/g, 'blank');
+      
+      try {
+        const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=${encodeURIComponent(text)}&tl=en-US`;
+        const audio = new Audio(url);
+        audio.crossOrigin = "anonymous";
+        
+        audio.play().catch(() => speakWithWebSpeech(text));
+      } catch (error) {
+        speakWithWebSpeech(text);
+      }
+    }
+
+    function speakWithWebSpeech(text) {
+      window.speechSynthesis.cancel();
+      
+      const utt = new SpeechSynthesisUtterance(text);
+      utt.lang = 'en-US';
+      utt.rate = 0.9;
+      utt.pitch = 1.0;
+      utt.volume = 1.0;
+      
+      window.speechSynthesis.speak(utt);
+    }
+
+    function passQuestion() {
+      if (gameState.answered) return;
+
+      gameState.answered = true;
+      const q = gameState.questionData;
+      
+      gameState.mistakes.push({
+        question: gameState.questionData.question,
+        correct: q.correct,
+        yourAnswer: 'PASSED'
       });
-    } else {
-      const notes = [400, 300];
-      notes.forEach((freq, i) => {
-        setTimeout(() => {
-          osc.frequency.value = freq;
-          gain.gain.setValueAtTime(0.2, ctx.currentTime);
-          gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.2);
-          osc.start(ctx.currentTime);
-          osc.stop(ctx.currentTime + 0.2);
-        }, i * 200);
+
+      document.getElementById('feedback').textContent = '⏭️ Passed - Next question';
+      document.getElementById('feedback').style.color = '#ff9800';
+
+      playSound('wrong');
+
+      setTimeout(() => {
+        gameState.currentQuestion++;
+        loadQuestion();
+      }, 1500);
+    }
+
+    function goToScoreBoard() {
+      if (gameState.gameInProgress) {
+        gameState.gameInProgress = false;
+      }
+      
+      document.getElementById('gameArea').classList.remove('active');
+      document.getElementById('endScreen').classList.remove('active');
+      document.getElementById('scoreBoard').classList.add('active');
+      
+      document.getElementById('currentScoreDisplay').textContent = gameState.score;
+      document.getElementById('currentCoinsDisplay').textContent = gameState.sessionCoins;
+      
+      const difficultyName = {
+        'seedling': 'Seedling 🌱',
+        'tree': 'Tree 🌳',
+        'forest': 'Forest 🌲'
+      };
+      document.getElementById('currentDifficultyDisplay').textContent = difficultyName[gameState.difficulty];
+      
+      updateRankings();
+    }
+
+    function saveScore() {
+      const playerName = document.getElementById('playerName').value.trim();
+      
+      if (!playerName) {
+        alert('Please enter your name');
+        return;
+      }
+      
+      let scores = JSON.parse(localStorage.getItem('englishQuestScores')) || [];
+      
+      const newScore = {
+        name: playerName,
+        coins: gameState.sessionCoins,
+        score: gameState.score,
+        difficulty: gameState.difficulty,
+        date: new Date().toLocaleString()
+      };
+      
+      scores.push(newScore);
+      localStorage.setItem('englishQuestScores', JSON.stringify(scores));
+      
+      document.getElementById('playerName').value = '';
+      updateRankings();
+      alert(`🎉 Score saved for ${playerName}!`);
+    }
+
+    function updateRankings() {
+      let scores = JSON.parse(localStorage.getItem('englishQuestScores')) || [];
+      
+      scores.sort((a, b) => {
+        if (b.coins !== a.coins) {
+          return b.coins - a.coins;
+        }
+        return new Date(b.date) - new Date(a.date);
+      });
+      
+      const top10 = scores.slice(0, 10);
+      
+      const rankingList = document.getElementById('rankingList');
+      rankingList.innerHTML = '';
+      
+      if (top10.length === 0) {
+        rankingList.innerHTML = '<p style="text-align:center; color:#999;">No scores yet</p>';
+        return;
+      }
+      
+      top10.forEach((score, index) => {
+        const rank = index + 1;
+        let medalEmoji = '';
+        let medalClass = '';
+        
+        if (rank === 1) { medalEmoji = '🥇'; medalClass = 'medal-1'; }
+        else if (rank === 2) { medalEmoji = '🥈'; medalClass = 'medal-2'; }
+        else if (rank === 3) { medalEmoji = '🥉'; medalClass = 'medal-3'; }
+        
+        const difficultyEmoji = {
+          'seedling': '🌱',
+          'tree': '🌳',
+          'forest': '🌲'
+        };
+        
+        const item = document.createElement('div');
+        item.className = 'ranking-item';
+        item.innerHTML = `
+          <div class="ranking-rank ${medalClass}">${rank}${medalEmoji}</div>
+          <div class="ranking-info">
+            <div class="ranking-name">${score.name}</div>
+            <div class="ranking-meta">${score.score}/10 | ${score.date}</div>
+          </div>
+          <div class="ranking-coins">${score.coins}</div>
+          <div class="ranking-difficulty">${difficultyEmoji[score.difficulty]}</div>
+        `;
+        rankingList.appendChild(item);
       });
     }
-  } catch (error) {
-    console.log('Audio context error - continuing without sound');
-  }
-}
 
-    // 음성 재생 함수 (개선된 버전)
-function playAudio() {
-  let text = gameState.questionData.question;
-  // underscore를 "blank"로 변환하여 읽음
-  text = text.replace(/_+/g, 'blank');
-  
-  // 모바일 호환성 개선
-  try {
-    // 방법 1: Google Translate TTS (최우선)
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=${encodeURIComponent(text)}&tl=en-US`;
-    const audio = new Audio(url);
-    
-    // 모바일에서 재생 보장
-    audio.crossOrigin = "anonymous";
-    
-    audio.play().then(() => {
-      // 성공
-    }).catch(() => {
-      // 방법 2: Web Speech API (Google Translate 실패 시)
-      speakWithWebSpeech(text);
-    });
-  } catch (error) {
-    // 방법 3: Web Speech API (보안 오류 시)
-    speakWithWebSpeech(text);
-  }
-}
-
-// Web Speech API를 사용한 음성 재생 (모바일 완벽 지원)
-function speakWithWebSpeech(text) {
-  // 이전 재생 중단
-  window.speechSynthesis.cancel();
-  
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = 'en-US';
-  utt.rate = 0.9;
-  utt.pitch = 1.0;
-  utt.volume = 1.0; // 최대 볼륨
-  
-  window.speechSynthesis.speak(utt);
-}
-
-
-
-    // 게임 종료
     function endGame() {
       gameState.gameInProgress = false;
       document.getElementById('gameArea').classList.remove('active');
       document.getElementById('endScreen').classList.add('active');
       document.getElementById('backBtn').style.display = 'none';
+      document.getElementById('closeBtn').style.display = 'none';
+      document.getElementById('passBtn').style.display = 'none';
       
       document.getElementById('finalScore').textContent = gameState.score + '/10';
       
@@ -1111,14 +1199,12 @@ function speakWithWebSpeech(text) {
       }
     }
 
-    // 복습 화면 표시
     function showReview() {
       document.getElementById('endScreen').classList.remove('active');
       document.getElementById('reviewScreen').classList.add('active');
       displayReviewPage(0);
     }
 
-    // 복습 페이지 표시
     function displayReviewPage(page) {
       gameState.currentPage = page;
       const start = page * gameState.itemsPerPage;
@@ -1129,15 +1215,15 @@ function speakWithWebSpeech(text) {
       reviewItems.innerHTML = '';
 
       if (pageItems.length === 0) {
-        reviewItems.innerHTML = '<p style="text-align: center; color: #999; padding: 20px;">No mistakes to review</p>';
+        reviewItems.innerHTML = '<p style="text-align:center; color:#999; padding:20px;">No mistakes to review</p>';
       } else {
         pageItems.forEach((mistake, index) => {
           const item = document.createElement('div');
           item.className = 'review-item';
           item.innerHTML = `
             <div class="review-item-question"><strong>Q${start + index + 1}:</strong> ${mistake.question}</div>
-            <div class="review-item-answer">Your answer: <span style="color: #d32f2f;">${mistake.yourAnswer}</span></div>
-            <div class="review-item-answer">Correct answer: <span style="color: #4caf50;">${mistake.correct}</span></div>
+            <div class="review-item-answer">Your answer: <span style="color:#d32f2f;">${mistake.yourAnswer}</span></div>
+            <div class="review-item-answer">Correct answer: <span style="color:#4caf50;">${mistake.correct}</span></div>
           `;
           reviewItems.appendChild(item);
         });
@@ -1156,7 +1242,6 @@ function speakWithWebSpeech(text) {
       }
     }
 
-    // 다시 플레이 (코인 누적, 새 문제 세트)
     function playAgain() {
       document.getElementById('endScreen').classList.remove('active');
       document.getElementById('reviewScreen').classList.remove('active');
@@ -1174,11 +1259,11 @@ function speakWithWebSpeech(text) {
       document.getElementById('startScreen').classList.add('hidden');
       document.getElementById('gameArea').classList.add('active');
       document.getElementById('backBtn').style.display = 'block';
+      document.getElementById('closeBtn').style.display = 'block';
       
       loadQuestion();
     }
 
-    // 홈으로 이동 (코인 리셋)
     function goHome() {
       gameState.gameInProgress = false;
       gameState.sessionCoins = 0;
@@ -1191,10 +1276,12 @@ function speakWithWebSpeech(text) {
       document.getElementById('gameArea').classList.remove('active');
       document.getElementById('endScreen').classList.remove('active');
       document.getElementById('reviewScreen').classList.remove('active');
+      document.getElementById('scoreBoard').classList.remove('active');
+      
       document.getElementById('backBtn').style.display = 'none';
+      document.getElementById('closeBtn').style.display = 'none';
     }
 
-    // 뒤로 이동
     function goBack() {
       if (gameState.gameInProgress) {
         if (confirm('Are you sure you want to quit the game?')) {
